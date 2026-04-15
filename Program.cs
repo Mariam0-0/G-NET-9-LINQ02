@@ -5,6 +5,9 @@ using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using System;
 using LINQ.DataSources;
+using LINQ.Helpers;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace G_NET_9_LINQ02
 {
@@ -207,9 +210,17 @@ namespace G_NET_9_LINQ02
             //14.Find countries that appear in list1 but NOT in list2
             //(case -insensitive).
             //string[] list1 = { "Germany", "France", "UK", "Spain" };
-            //                string[] list2 = { "france", "SPAIN", "Italy" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
             //==============================================
 
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var result = list1.Except(list2, new StringCaseInsensitiveComparer());
+            //foreach ( var item in result )
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Question 15

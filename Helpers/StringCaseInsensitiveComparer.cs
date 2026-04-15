@@ -1,10 +1,14 @@
 ﻿namespace LINQ.Helpers
 {
-	public class StringCaseInsensitiveComparer : IComparer<string>
-	{
-		public int Compare(string? x, string? y)
-		{
-			return string.Compare(x, y, StringComparison.OrdinalIgnoreCase);
-		}
-	}
+	public class StringCaseInsensitiveComparer : IEqualityComparer<string>
+    {
+        public bool Equals(string? x, string? y)
+        {
+            return string.Equals(x, y, StringComparison.OrdinalIgnoreCase);
+        }
+        public int GetHashCode(string? obj)
+        {
+            return obj?.ToLower().GetHashCode() ?? 0;
+        }
+    }
 }
