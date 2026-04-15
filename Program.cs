@@ -8,6 +8,7 @@ using LINQ.DataSources;
 using LINQ.Helpers;
 using System.Linq;
 using System.Collections.Generic;
+using System.Data;
 
 namespace G_NET_9_LINQ02
 {
@@ -251,7 +252,7 @@ namespace G_NET_9_LINQ02
 
             //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500, null);
             //Console.WriteLine(result != null? result.ProductName : "not found");
-            
+
             #endregion
 
             #region Question 18
@@ -259,6 +260,18 @@ namespace G_NET_9_LINQ02
             //18.Generate a multiplication table row for 7
             //==============================================
 
+            //
+            //var result = Enumerable.Range(0, 13)
+            //    .Select(n => new
+            //    {
+            //        Number = n,
+            //        Result = 7* n
+            //    });
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"7 x {item.Number} = {item.Result}");
+            //}
             #endregion
 
             #region Question 19
