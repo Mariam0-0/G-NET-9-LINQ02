@@ -73,6 +73,10 @@ namespace G_NET_9_LINQ02
             //int[] ids = { 3, 9, 13, 18 };
             //==============================================
 
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //var result = ids.Any(x => x == 9);
+            //Console.WriteLine(result);
             #endregion
 
             #region Question 06
