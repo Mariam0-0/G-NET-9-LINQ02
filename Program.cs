@@ -137,6 +137,20 @@ namespace G_NET_9_LINQ02
             //group select { Country, Count, TotalOrderValue }.
             //==============================================
 
+            //var result = from c in Source.CustomerList
+            //             group c by c.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+            //foreach(var c in result)
+            //{
+            //    Console.WriteLine($"Country: {c.Country}, Customers: {c.Count}, Total Orders Value: {c.TotalOrderValue:C}");
+            //}
+                
+                
             #endregion
 
             #region Question 10
