@@ -4,6 +4,7 @@ using System.Diagnostics.Metrics;
 using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using System;
+using LINQ.DataSources;
 
 namespace G_NET_9_LINQ02
 {
@@ -16,6 +17,11 @@ namespace G_NET_9_LINQ02
             //1.Get top 3 most expensive products
             //==============================================
 
+            //var result = Source.ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Question 02
