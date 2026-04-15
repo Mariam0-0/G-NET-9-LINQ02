@@ -90,6 +90,13 @@ namespace G_NET_9_LINQ02
             //product count.
             //==============================================
 
+            //var result = Source.ProductList.GroupBy(p => p.Category);
+            //foreach (var group in result)
+            //{
+            //    int count = group.Count();
+            //    Console.WriteLine($"Category: {group.Key} - Count: {count}");
+
+            //}
             #endregion
 
             #region Question 07
