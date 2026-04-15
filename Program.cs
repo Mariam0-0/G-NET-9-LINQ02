@@ -50,7 +50,8 @@ namespace G_NET_9_LINQ02
             //$25(list is ordered by price).
             //==============================================
 
-            //var result = Source.ProductList.TakeWhile(p => p.UnitPrice < 25).OrderBy(p => p.UnitPrice);
+            //// order first then get result
+            //var result = Source.ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
