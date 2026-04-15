@@ -278,6 +278,12 @@ namespace G_NET_9_LINQ02
             //==============================================
             //19.Generate even numbers between 1 and 30.
             //==============================================
+
+            //var result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Question 20
