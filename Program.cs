@@ -244,10 +244,14 @@ namespace G_NET_9_LINQ02
 
             #region Question 17
             //==============================================
-            //17.Try to get the first product with a price > $500.it returns null
+            //17.Try to get the first product with a price > $500.
+            //it returns null
             //instead of throwing.
             //==============================================
 
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500, null);
+            //Console.WriteLine(result != null? result.ProductName : "not found");
+            
             #endregion
 
             #region Question 18
