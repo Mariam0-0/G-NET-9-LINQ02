@@ -149,8 +149,8 @@ namespace G_NET_9_LINQ02
             //{
             //    Console.WriteLine($"Country: {c.Country}, Customers: {c.Count}, Total Orders Value: {c.TotalOrderValue:C}");
             //}
-                
-                
+
+
             #endregion
 
             #region Question 10
@@ -178,6 +178,11 @@ namespace G_NET_9_LINQ02
             //12.Get a distinct list of all product categories
             //==============================================
 
+            //var result = Source.ProductList.Select(p => p.Category).Distinct();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Question 13
