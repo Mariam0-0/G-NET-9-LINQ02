@@ -229,6 +229,8 @@ namespace G_NET_9_LINQ02
             //retrieve and print the product with ID = 18.
             //==============================================
 
+            //var result = Source.ProductList.ToDictionary(p => p.ProductID);
+            //Console.WriteLine(result[18]);
             #endregion
 
             #region Question 16
