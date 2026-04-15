@@ -105,6 +105,14 @@ namespace G_NET_9_LINQ02
             //group
             //==============================================
 
+            //var result = Source.ProductList.GroupBy(p => p.Category);
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"Category: {group.Key}");
+            //    foreach(var item in group) Console.WriteLine(item.ProductName);
+            //    Console.WriteLine();
+            //    Console.WriteLine();
+            //}
             #endregion
 
             #region Question 08
