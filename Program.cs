@@ -167,6 +167,10 @@ namespace G_NET_9_LINQ02
             //11.Find the CHEAPEST and MOST EXPENSIVE product prices
             //==============================================
 
+            //var cheapest = Source.ProductList.Min(p => p.UnitPrice);
+            //var expensive = Source.ProductList.Max(p => p.UnitPrice);
+            //Console.WriteLine($"Cheapest: {cheapest}");
+            //Console.WriteLine($"Most expensive: {expensive}");
             #endregion
 
             #region Question 12
