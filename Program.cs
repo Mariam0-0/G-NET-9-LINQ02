@@ -29,6 +29,19 @@ namespace G_NET_9_LINQ02
             //2.show page 2 of products, with page size = 5
             //==============================================
 
+            //var page1 = Source.ProductList.Take(5);
+            //var page2 = Source.ProductList.Skip(5).Take(5);
+            //Console.WriteLine("=== Page 1 ====");
+            //foreach (var item in page1)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("=== Page 2 ====");
+            //foreach (var item in page2)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Question 03
