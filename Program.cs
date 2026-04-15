@@ -292,6 +292,13 @@ namespace G_NET_9_LINQ02
             //customer company names into a single sequence.
             //==============================================
 
+            //var result = Source.ProductList.Select(p => p.ProductName).Take(3)
+            //                                .Concat(Source.CustomerList.Select(c => c.CompanyName).Take(3));
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            
             #endregion
 
             #region Question 21
