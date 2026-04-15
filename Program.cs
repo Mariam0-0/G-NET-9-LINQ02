@@ -298,7 +298,7 @@ namespace G_NET_9_LINQ02
             //{
             //    Console.WriteLine(item);
             //}
-            
+
             #endregion
 
             #region Question 21
@@ -307,6 +307,11 @@ namespace G_NET_9_LINQ02
             //a string "ProductName sold to CompanyName".
             //==============================================
 
+            //var result = Source.ProductList.Zip(Source.CustomerList, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+            //foreach ( var item in result )
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
         }
     }
